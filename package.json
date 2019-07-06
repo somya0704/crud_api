@@ -1,7 +1,7 @@
 {
   "name": "crud_api",
   "version": "1.0.0",
-  "description": "",
+  "description": "CRUD using node,express and mongo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/somya0704/crud_api.git"
   },
-  "author": "",
+  "author": "Somya",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/somya0704/crud_api/issues"
