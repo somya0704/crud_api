@@ -1,11 +1,18 @@
 const express = require('express');
 
-const app = express();
+const bodyParser = require('body-parser');
+
+const moongose = require('mongoose');
 
 const port = 3000
 
+const app = express();
+
+mongoose.connect("mongodb://test:test123@ds341837.mlab.com:41837/learning");
+
+
 app.get('/', (req,res) => {
-  res.send("hello");
+  res.send("hello with express");
 
 });
 
